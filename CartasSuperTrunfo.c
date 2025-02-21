@@ -19,7 +19,7 @@ int main(){
     printf("Codigo da carta (A01, B01): \n");
     scanf("%s", &codigo1);
 
-    printf("Nome da cidade: \n");
+    printf("Nome da cidade:\n");
     scanf("%s", cidade1);
 
     printf("População: \n");
