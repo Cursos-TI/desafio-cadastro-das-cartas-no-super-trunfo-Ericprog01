@@ -53,18 +53,18 @@ int main(){
     scanf("%s\n", &cidade2);
 
     printf("População: ");
-    scanf("%d", &populacao2);
+    scanf("%d\n", &populacao2);
 
     printf("Área em km²: ");
-    scanf("%f", &area2);
+    scanf("%f\n", &area2);
 
     printf("Pib: ");
-    scanf("%f", &pib2);
+    scanf("%f\n", &pib2);
 
     printf("Pontos Turisticos: ");
-    scanf("%d", &pontos_turisticos2);
+    scanf("%d\n", &pontos_turisticos2);
 
-    printf("Carta 01\n");
+    printf("\nCarta 01: \n");
     printf("Estado: %c\n", estado1);
     printf("Codigo da carta: %s\n", codigo1);
     printf("Cidade: %s\n", cidade1);
@@ -73,7 +73,8 @@ int main(){
     printf("Pib: %.2f Bilhões de reais\n", pib1);
     printf("Pontos turisticos: %d\n", pontos_turisticos1);
 
-    printf("Carta 02\n");
+
+    printf("\nCarta 02: \n");
     printf("Estado: %c\n", estado2);
     printf("Codigo da carta: %s\n", codigo2);
     printf("Cidade: %s\n", cidade2);
